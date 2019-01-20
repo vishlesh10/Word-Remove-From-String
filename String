@@ -1,0 +1,18 @@
+import java.util.*;
+public class DuplicateWord 
+{
+	public static void main(String [] args)
+	{
+    	Scanner KB=new Scanner(System.in);
+    	String s1 ,a="";
+    	System.out.println("Enter String: ");
+    	s1=KB.nextLine();
+    	String s2;
+    	System.out.println("Enter word u want to remove: ");
+    	s2=KB.next();
+    	
+    	System.out.println(s1.replace(s2,a));	
+    	
+	}
+           
+}
